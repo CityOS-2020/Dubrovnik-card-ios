@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77558AA21AFF4D4B0031669A /* dbkcardfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77558AA11AFF4D4B0031669A /* dbkcardfont.ttf */; };
+		77558AA41AFF4FD50031669A /* DubrovnikCardFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77558AA31AFF4FD50031669A /* DubrovnikCardFont.swift */; };
+		77558AA61AFF63C20031669A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77558AA51AFF63C20031669A /* Images.xcassets */; };
+		7783C4631AFE126300FC3918 /* ValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7783C4621AFE126300FC3918 /* ValidationViewController.swift */; };
+		7783C4651AFE627A00FC3918 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7783C4641AFE627A00FC3918 /* ExploreViewController.swift */; };
+		77CEB34B1AFD49E700DA204B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CEB34A1AFD49E700DA204B /* AppDelegate.swift */; };
+		77CEB34D1AFD49E700DA204B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CEB34C1AFD49E700DA204B /* ViewController.swift */; };
+		77CEB3501AFD49E700DA204B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77CEB34E1AFD49E700DA204B /* Main.storyboard */; };
+		77CEB3551AFD49E700DA204B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77CEB3531AFD49E700DA204B /* LaunchScreen.xib */; };
+		77CEB3611AFD49E700DA204B /* Dubrovnik_CardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CEB3601AFD49E700DA204B /* Dubrovnik_CardTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77CEB35B1AFD49E700DA204B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77CEB33D1AFD49E700DA204B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77CEB3441AFD49E700DA204B;
+			remoteInfo = "Dubrovnik Card";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77558AA11AFF4D4B0031669A /* dbkcardfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = dbkcardfont.ttf; sourceTree = "<group>"; };
+		77558AA31AFF4FD50031669A /* DubrovnikCardFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DubrovnikCardFont.swift; sourceTree = "<group>"; };
+		77558AA51AFF63C20031669A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7783C4621AFE126300FC3918 /* ValidationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationViewController.swift; sourceTree = "<group>"; };
+		7783C4641AFE627A00FC3918 /* ExploreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		77CEB3451AFD49E700DA204B /* Dubrovnik Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dubrovnik Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77CEB3491AFD49E700DA204B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77CEB34A1AFD49E700DA204B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77CEB34C1AFD49E700DA204B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77CEB34F1AFD49E700DA204B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77CEB3541AFD49E700DA204B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		77CEB35A1AFD49E700DA204B /* Dubrovnik CardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dubrovnik CardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77CEB35F1AFD49E700DA204B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77CEB3601AFD49E700DA204B /* Dubrovnik_CardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dubrovnik_CardTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77CEB3421AFD49E700DA204B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77CEB3571AFD49E700DA204B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77CEB33C1AFD49E700DA204B = {
+			isa = PBXGroup;
+			children = (
+				77CEB3471AFD49E700DA204B /* Dubrovnik Card */,
+				77CEB35D1AFD49E700DA204B /* Dubrovnik CardTests */,
+				77CEB3461AFD49E700DA204B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77CEB3461AFD49E700DA204B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77CEB3451AFD49E700DA204B /* Dubrovnik Card.app */,
+				77CEB35A1AFD49E700DA204B /* Dubrovnik CardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77CEB3471AFD49E700DA204B /* Dubrovnik Card */ = {
+			isa = PBXGroup;
+			children = (
+				77CEB34A1AFD49E700DA204B /* AppDelegate.swift */,
+				77CEB34C1AFD49E700DA204B /* ViewController.swift */,
+				77CEB34E1AFD49E700DA204B /* Main.storyboard */,
+				77558AA51AFF63C20031669A /* Images.xcassets */,
+				77CEB3531AFD49E700DA204B /* LaunchScreen.xib */,
+				77CEB3481AFD49E700DA204B /* Supporting Files */,
+				7783C4621AFE126300FC3918 /* ValidationViewController.swift */,
+				7783C4641AFE627A00FC3918 /* ExploreViewController.swift */,
+				77558AA31AFF4FD50031669A /* DubrovnikCardFont.swift */,
+			);
+			path = "Dubrovnik Card";
+			sourceTree = "<group>";
+		};
+		77CEB3481AFD49E700DA204B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77558AA11AFF4D4B0031669A /* dbkcardfont.ttf */,
+				77CEB3491AFD49E700DA204B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77CEB35D1AFD49E700DA204B /* Dubrovnik CardTests */ = {
+			isa = PBXGroup;
+			children = (
+				77CEB3601AFD49E700DA204B /* Dubrovnik_CardTests.swift */,
+				77CEB35E1AFD49E700DA204B /* Supporting Files */,
+			);
+			path = "Dubrovnik CardTests";
+			sourceTree = "<group>";
+		};
+		77CEB35E1AFD49E700DA204B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77CEB35F1AFD49E700DA204B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77CEB3441AFD49E700DA204B /* Dubrovnik Card */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77CEB3641AFD49E700DA204B /* Build configuration list for PBXNativeTarget "Dubrovnik Card" */;
+			buildPhases = (
+				77CEB3411AFD49E700DA204B /* Sources */,
+				77CEB3421AFD49E700DA204B /* Frameworks */,
+				77CEB3431AFD49E700DA204B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dubrovnik Card";
+			productName = "Dubrovnik Card";
+			productReference = 77CEB3451AFD49E700DA204B /* Dubrovnik Card.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77CEB3591AFD49E700DA204B /* Dubrovnik CardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77CEB3671AFD49E700DA204B /* Build configuration list for PBXNativeTarget "Dubrovnik CardTests" */;
+			buildPhases = (
+				77CEB3561AFD49E700DA204B /* Sources */,
+				77CEB3571AFD49E700DA204B /* Frameworks */,
+				77CEB3581AFD49E700DA204B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77CEB35C1AFD49E700DA204B /* PBXTargetDependency */,
+			);
+			name = "Dubrovnik CardTests";
+			productName = "Dubrovnik CardTests";
+			productReference = 77CEB35A1AFD49E700DA204B /* Dubrovnik CardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77CEB33D1AFD49E700DA204B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Andrej Saric";
+				TargetAttributes = {
+					77CEB3441AFD49E700DA204B = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = KLVZFWAFRC;
+					};
+					77CEB3591AFD49E700DA204B = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 77CEB3441AFD49E700DA204B;
+					};
+				};
+			};
+			buildConfigurationList = 77CEB3401AFD49E700DA204B /* Build configuration list for PBXProject "Dubrovnik Card" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77CEB33C1AFD49E700DA204B;
+			productRefGroup = 77CEB3461AFD49E700DA204B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77CEB3441AFD49E700DA204B /* Dubrovnik Card */,
+				77CEB3591AFD49E700DA204B /* Dubrovnik CardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77CEB3431AFD49E700DA204B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77CEB3501AFD49E700DA204B /* Main.storyboard in Resources */,
+				77558AA61AFF63C20031669A /* Images.xcassets in Resources */,
+				77558AA21AFF4D4B0031669A /* dbkcardfont.ttf in Resources */,
+				77CEB3551AFD49E700DA204B /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77CEB3581AFD49E700DA204B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77CEB3411AFD49E700DA204B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77558AA41AFF4FD50031669A /* DubrovnikCardFont.swift in Sources */,
+				7783C4651AFE627A00FC3918 /* ExploreViewController.swift in Sources */,
+				77CEB34D1AFD49E700DA204B /* ViewController.swift in Sources */,
+				7783C4631AFE126300FC3918 /* ValidationViewController.swift in Sources */,
+				77CEB34B1AFD49E700DA204B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77CEB3561AFD49E700DA204B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77CEB3611AFD49E700DA204B /* Dubrovnik_CardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77CEB35C1AFD49E700DA204B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77CEB3441AFD49E700DA204B /* Dubrovnik Card */;
+			targetProxy = 77CEB35B1AFD49E700DA204B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77CEB34E1AFD49E700DA204B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77CEB34F1AFD49E700DA204B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77CEB3531AFD49E700DA204B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77CEB3541AFD49E700DA204B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77CEB3621AFD49E700DA204B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77CEB3631AFD49E700DA204B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77CEB3651AFD49E700DA204B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Dubrovnik Card/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		77CEB3661AFD49E700DA204B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Dubrovnik Card/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		77CEB3681AFD49E700DA204B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dubrovnik CardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dubrovnik Card.app/Dubrovnik Card";
+			};
+			name = Debug;
+		};
+		77CEB3691AFD49E700DA204B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dubrovnik CardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dubrovnik Card.app/Dubrovnik Card";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77CEB3401AFD49E700DA204B /* Build configuration list for PBXProject "Dubrovnik Card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77CEB3621AFD49E700DA204B /* Debug */,
+				77CEB3631AFD49E700DA204B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77CEB3641AFD49E700DA204B /* Build configuration list for PBXNativeTarget "Dubrovnik Card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77CEB3651AFD49E700DA204B /* Debug */,
+				77CEB3661AFD49E700DA204B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77CEB3671AFD49E700DA204B /* Build configuration list for PBXNativeTarget "Dubrovnik CardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77CEB3681AFD49E700DA204B /* Debug */,
+				77CEB3691AFD49E700DA204B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77CEB33D1AFD49E700DA204B /* Project object */;
+}
